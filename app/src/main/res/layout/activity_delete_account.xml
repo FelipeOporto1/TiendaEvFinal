@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    style="@style/DarkBackground">
+
+    <TextView
+        style="@style/MetalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_account"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        style="@style/MetalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_account_confirmation"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        style="@style/MetalEditText"
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_hint"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        style="@style/MetalEditText"
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        style="@style/MetalButton"
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_delete"
+        android:backgroundTint="@android:color/holo_red_dark"/>
+
+</LinearLayout> 
